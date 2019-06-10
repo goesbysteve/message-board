@@ -1,4 +1,38 @@
+# Message Board
+
+The result of a tech test. See below for install and scripts
+
+## Outcome
+
+- This is a really basic conceptual message board. aka it's a CRUD implementation. Most of my time was in learning beyond my basic React skill. Although I can argue why I've chosen the approach, I fully expect to learn more in the code review.
+
+- I had intended to refactor for Redux but didn't for two reasons; 1. that's probably more complicated than this needs 2. I didn't have time!
+
+- I intended to show reuse pattern of HoC ( WithAuthentication, PrivateRoute ), use of hooks to allow components with ui state ( the post forms ) to be functional components.
+
+- Not all tests are complete. See 
+
+  - [App.test.js#L60](https://github.com/stevegibbings/message-board/blob/master/src/components/App.test.js#L60)
+  
+  - [PrivateRoute.js]https://github.com/stevegibbings/message-board/blob/master/src/components/PrivateRoute.test.js which has unused imports remaining from trials of different testing approaches.
+
+  - Router.js has no tests
+
+  - WithAuthentication.js has no tests
+  
+***
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Install
+
+Clone this repo then
+
+In the project directory, run
+
+### `npm install`
+
+To install node dependencies
 
 ## Available Scripts
 
