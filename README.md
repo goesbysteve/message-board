@@ -8,6 +8,8 @@ The result of a tech test. See below for install and scripts
 
 - I had intended to refactor for Redux but didn't for two reasons; 1. that's probably more complicated than this needs 2. I didn't have time!
 
+- I used Firebase because I wanted to show some sync between users but didn't get that far. Was interesting when it came to [mocking it](https://github.com/stevegibbings/message-board/blob/master/src/__mocks__/firebase.js) for testing.
+
 - I intended to show reuse pattern of HoC ( WithAuthentication, PrivateRoute ), use of hooks to allow components with ui state ( the post forms ) to be functional components.
 
 - Not all tests are complete. See 
