@@ -38,6 +38,6 @@
   },
   "devDependencies": {
     "documentation": "^11.0.0",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.1"
   }
 }
